@@ -33,9 +33,3 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 })
-
-// Configure Slider
-
-$('.carousel').carousel({
-  pause: "null"
-})
