@@ -497,7 +497,7 @@ h1 {
 .bloc-P {
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
-	background-image: url(../img/jet%c3%83%c2%a9ec.html);
+	background-image: url(../img/jetéec.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
@@ -525,7 +525,7 @@ h1 {
 
 #content4 .icone {
 	text-align: center;
-	padding: 0 0 50px 0;
+	padding: 0 0 20px 0;
 }
 
 #content4 ul {
@@ -551,6 +551,7 @@ h1 {
 	        animation: bounce 0.35s ease infinite alternate;
 }
 
+/*
 @-webkit-keyframes bounce{
 	from{
         -webkit-transform: translateY(0);
@@ -571,7 +572,7 @@ h1 {
         -webkit-transform: translateY(-20px);
         transform :translateY(-20px);
     }
-}
+} */
 
 	/* DIPLOMES */
 
@@ -594,7 +595,7 @@ h1 {
 }
 
 #diplomes .card {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	border: 1px solid #2c3e50;
 	transition: .4s all ease-in-out;
