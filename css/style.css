@@ -93,9 +93,9 @@ video {
 
 .box {
 	display: flex;
-	margin: 15px auto;
-	width: 100px;
-	height: 100px;
+	margin: 5px auto;
+	width: 60px;
+	height: 60px;
 	transform-style: preserve-3d;
 	transition: transform 350ms;
 	animation: spin 12s infinite linear;
@@ -103,41 +103,41 @@ video {
 
 .box:before, .box:after, .box i, .box i:before, .box i:after {
 	content: '';
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 	position: absolute;
 }
 
 .box:before {
-	transform: rotateY(90deg) translate3D(-50px,0,50px);
+	transform: rotateY(90deg) translate3D(-30px,0,30px);
 	background: url(../img/sophro10rc.jpg) no-repeat center/cover;
 	content:'';
 }
 
 .box:after {
-	transform: rotateY(90deg) rotateZ(180deg) translate3D(50px,0,-50px);
+	transform: rotateY(90deg) rotateZ(180deg) translate3D(30px,0,-30px);
 	background: url(../img/sophro7rc.jpg) no-repeat center/cover;
 }
 
 .box i {
 	transform-style: preserve-3d;
-	transform: translate3D(0,0,100px);
+	transform: translate3D(0,0,60px);
 	background: url(../img/sophro13rc.jpg) no-repeat center/cover;
 }
 
 .box i:before {
-	transform: translate3D(0,0,-100px);
+	transform: translate3D(0,0,-60px);
 	background: url(../img/sophro11rc.jpg) no-repeat center/cover;
 }
 
 .box i:after {
-	transform: rotateX(90deg) translate3D(0,-50px,-100px);
+	transform: rotateX(90deg) translate3D(0,-30px,-60px);
 	animation: none;
 }
 
 @keyframes spin {
-	0% { transform: rotateY(0deg) translateZ(-50px); }
-	100% { transform: rotateY(360deg) translateZ(-50px); }
+	0% { transform: rotateY(0deg) translateZ(-30px); }
+	100% { transform: rotateY(360deg) translateZ(-30px); }
 }
 
 	/* TITLE */
