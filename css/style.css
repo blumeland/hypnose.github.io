@@ -714,7 +714,7 @@ h1 {
 		margin: 0 auto;
 	}
 	#diplomes {
-		margin: 50px auto 600px;
+		margin: 50px auto 150%;
 		width: 60%;
 	}
 	#diplomes h2 {
